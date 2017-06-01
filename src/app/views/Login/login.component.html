@@ -1,0 +1,34 @@
+<div class="login-box">
+	<div class="login-logo">
+		<b>Kisan</b>Seva
+	</div>
+	<div class="login-box-body">
+		<p class="login-box-msg">Sign in to start your session</p>
+		<div *ngIf="data!==undefined">
+			<div *ngIf="data[0].USERERROR!==undefined">
+				<span class="error">{{data[0].USERERROR}}</span>
+			</div>
+		</div>
+		<span class="error"></span>
+		<form (submit)="login($event, email.value, password.value)">
+			<div class="form-group has-feedback">
+				<input #email type="text" class="form-control" placeholder="Email" name="Email" (input)='checkEmail(email.value)'>
+				<span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+				<span [innerHtml]="emailErrorMessage" class="error"></span> 
+			</div>
+			<div class="form-group has-feedback">
+				<input #password type="password" class="form-control" placeholder="Password" name="Password" (input)='checkPassword(password.value)'>
+				<span class="glyphicon glyphicon-lock form-control-feedback"></span>
+				<span [innerHtml]="passwordErrorMessage" class="error"></span>
+			</div>
+			<div class="row">
+				<div class="col-xs-8"></div>
+				<div class="col-xs-4">
+					<button type="submit" name="loginbtn" class="btn btn-primary btn-block btn-flat" >Sign In</button> 
+				</div>
+			</div>
+		</form>
+		<a routerLink="/forgotPassword">I forgot my password</a><br>
+		<a routerLink="/register" class="text-center">Register a new membership</a>
+	</div>
+</div>

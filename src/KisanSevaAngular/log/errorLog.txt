@@ -1,0 +1,244 @@
+
+DATE/TIME: {ts '2017-05-16 20:43:17'} 
+ERROR MESSAGE: The form field C:\ColdFusion10\cfusion\runtime\work\Catalina\localhost\tmp\neotmp8836702386292431051.tmp did not contain a file. 
+ERROR DETAILS:  
+ERROR TEMPLATE: D:\coldfusion\KisanSeva\controller\userController.cfc 
+ERROR LINE: 223 
+ERROR TYPE: Application 
+STACKTRACE: 	at cfuserController2ecfc447268575$funcEDITUSERPROFILE.runFunction(D:\coldfusion\KisanSeva\controller\userController.cfc:223) 
+----------------------------------------------------------------------
+
+DATE/TIME: {ts '2017-05-16 20:44:06'} 
+ERROR MESSAGE: The destination D:\coldfusion\KisanSeva\view\admin\D:\coldfusion\KisanSeva\assets\custom\img\sa.jpg specified in the file's upload action is invalid. 
+ERROR DETAILS: <br>The destination either does not exist or is not accessible by this tag. 
+ERROR TEMPLATE: D:\coldfusion\KisanSeva\controller\userController.cfc 
+ERROR LINE: 223 
+ERROR TYPE: Application 
+STACKTRACE: 	at cfuserController2ecfc447268575$funcEDITUSERPROFILE.runFunction(D:\coldfusion\KisanSeva\controller\userController.cfc:223) 
+----------------------------------------------------------------------
+
+DATE/TIME: {ts '2017-05-16 20:46:47'} 
+ERROR MESSAGE: The form field imageData did not contain a file. 
+ERROR DETAILS:  
+ERROR TEMPLATE: D:\coldfusion\KisanSeva\controller\userController.cfc 
+ERROR LINE: 223 
+ERROR TYPE: Application 
+STACKTRACE: 	at cfuserController2ecfc447268575$funcEDITUSERPROFILE.runFunction(D:\coldfusion\KisanSeva\controller\userController.cfc:223) 
+----------------------------------------------------------------------
+
+DATE/TIME: {ts '2017-05-16 20:46:55'} 
+ERROR MESSAGE: The form field imageData did not contain a file. 
+ERROR DETAILS:  
+ERROR TEMPLATE: D:\coldfusion\KisanSeva\controller\userController.cfc 
+ERROR LINE: 223 
+ERROR TYPE: Application 
+STACKTRACE: 	at cfuserController2ecfc447268575$funcEDITUSERPROFILE.runFunction(D:\coldfusion\KisanSeva\controller\userController.cfc:223) 
+----------------------------------------------------------------------
+
+DATE/TIME: {ts '2017-05-16 20:46:59'} 
+ERROR MESSAGE: The form field imageData did not contain a file. 
+ERROR DETAILS:  
+ERROR TEMPLATE: D:\coldfusion\KisanSeva\controller\userController.cfc 
+ERROR LINE: 223 
+ERROR TYPE: Application 
+STACKTRACE: 	at cfuserController2ecfc447268575$funcEDITUSERPROFILE.runFunction(D:\coldfusion\KisanSeva\controller\userController.cfc:223) 
+----------------------------------------------------------------------
+
+DATE/TIME: {ts '2017-05-16 20:47:04'} 
+ERROR MESSAGE: The form field imageData did not contain a file. 
+ERROR DETAILS:  
+ERROR TEMPLATE: D:\coldfusion\KisanSeva\controller\userController.cfc 
+ERROR LINE: 223 
+ERROR TYPE: Application 
+STACKTRACE: 	at cfuserController2ecfc447268575$funcEDITUSERPROFILE.runFunction(D:\coldfusion\KisanSeva\controller\userController.cfc:223) 
+----------------------------------------------------------------------
+
+DATE/TIME: {ts '2017-05-16 20:52:42'} 
+ERROR MESSAGE: The form field imageData did not contain a file. 
+ERROR DETAILS:  
+ERROR TEMPLATE: D:\coldfusion\KisanSeva\controller\userController.cfc 
+ERROR LINE: 224 
+ERROR TYPE: Application 
+STACKTRACE: 	at cfuserController2ecfc447268575$funcEDITUSERPROFILE.runFunction(D:\coldfusion\KisanSeva\controller\userController.cfc:224) 
+----------------------------------------------------------------------
+
+DATE/TIME: {ts '2017-05-16 21:25:06'} 
+ERROR MESSAGE: Invalid list index 0. 
+ERROR DETAILS: In function ListDeleteAt(list, index [, delimiters]), the value of index, 0, is not a valid as the first argument (this list has 0 elements).&nbsp;Valid indexes are in the range 1 through the number of elements in the list. 
+ERROR TEMPLATE: D:\coldfusion\KisanSeva\controller\userController.cfc 
+ERROR LINE: 251 
+ERROR TYPE: Expression 
+STACKTRACE: 	at cfuserController2ecfc447268575$funcSIGNOUTUSER.runFunction(D:\coldfusion\KisanSeva\controller\userController.cfc:251) 
+----------------------------------------------------------------------
+
+DATE/TIME: {ts '2017-05-16 21:25:08'} 
+ERROR MESSAGE: Invalid list index 0. 
+ERROR DETAILS: In function ListDeleteAt(list, index [, delimiters]), the value of index, 0, is not a valid as the first argument (this list has 0 elements).&nbsp;Valid indexes are in the range 1 through the number of elements in the list. 
+ERROR TEMPLATE: D:\coldfusion\KisanSeva\controller\userController.cfc 
+ERROR LINE: 251 
+ERROR TYPE: Expression 
+STACKTRACE: 	at cfuserController2ecfc447268575$funcSIGNOUTUSER.runFunction(D:\coldfusion\KisanSeva\controller\userController.cfc:251) 
+----------------------------------------------------------------------
+
+DATE/TIME: {ts '2017-05-16 21:25:10'} 
+ERROR MESSAGE: Invalid list index 0. 
+ERROR DETAILS: In function ListDeleteAt(list, index [, delimiters]), the value of index, 0, is not a valid as the first argument (this list has 0 elements).&nbsp;Valid indexes are in the range 1 through the number of elements in the list. 
+ERROR TEMPLATE: D:\coldfusion\KisanSeva\controller\userController.cfc 
+ERROR LINE: 251 
+ERROR TYPE: Expression 
+STACKTRACE: 	at cfuserController2ecfc447268575$funcSIGNOUTUSER.runFunction(D:\coldfusion\KisanSeva\controller\userController.cfc:251) 
+----------------------------------------------------------------------
+
+DATE/TIME: {ts '2017-05-16 21:25:12'} 
+ERROR MESSAGE: Invalid list index 0. 
+ERROR DETAILS: In function ListDeleteAt(list, index [, delimiters]), the value of index, 0, is not a valid as the first argument (this list has 0 elements).&nbsp;Valid indexes are in the range 1 through the number of elements in the list. 
+ERROR TEMPLATE: D:\coldfusion\KisanSeva\controller\userController.cfc 
+ERROR LINE: 251 
+ERROR TYPE: Expression 
+STACKTRACE: 	at cfuserController2ecfc447268575$funcSIGNOUTUSER.runFunction(D:\coldfusion\KisanSeva\controller\userController.cfc:251) 
+----------------------------------------------------------------------
+
+DATE/TIME: {ts '2017-05-16 21:25:16'} 
+ERROR MESSAGE: Invalid list index 0. 
+ERROR DETAILS: In function ListDeleteAt(list, index [, delimiters]), the value of index, 0, is not a valid as the first argument (this list has 0 elements).&nbsp;Valid indexes are in the range 1 through the number of elements in the list. 
+ERROR TEMPLATE: D:\coldfusion\KisanSeva\controller\userController.cfc 
+ERROR LINE: 251 
+ERROR TYPE: Expression 
+STACKTRACE: 	at cfuserController2ecfc447268575$funcSIGNOUTUSER.runFunction(D:\coldfusion\KisanSeva\controller\userController.cfc:251) 
+----------------------------------------------------------------------
+
+DATE/TIME: {ts '2017-05-16 21:26:30'} 
+ERROR MESSAGE: Invalid list index 0. 
+ERROR DETAILS: In function ListDeleteAt(list, index [, delimiters]), the value of index, 0, is not a valid as the first argument (this list has 0 elements).&nbsp;Valid indexes are in the range 1 through the number of elements in the list. 
+ERROR TEMPLATE: D:\coldfusion\KisanSeva\controller\userController.cfc 
+ERROR LINE: 251 
+ERROR TYPE: Expression 
+STACKTRACE: 	at cfuserController2ecfc447268575$funcSIGNOUTUSER.runFunction(D:\coldfusion\KisanSeva\controller\userController.cfc:251) 
+----------------------------------------------------------------------
+
+DATE/TIME: {ts '2017-05-17 12:32:59'} 
+ERROR MESSAGE: The method createCategory was not found in component D:\coldfusion\KisanSeva\model\userModel.cfc. 
+ERROR DETAILS: Ensure that the method is defined, and that it is spelled correctly. 
+ERROR TEMPLATE: D:\coldfusion\KisanSeva\controller\adminController.cfc 
+ERROR LINE: 107 
+ERROR TYPE: Application 
+STACKTRACE: 	at cfadminController2ecfc1734561433$funcADDCATEGORY.runFunction(D:\coldfusion\KisanSeva\controller\adminController.cfc:107) 
+----------------------------------------------------------------------
+
+DATE/TIME: {ts '2017-05-17 12:38:38'} 
+ERROR MESSAGE: Error Executing Database Query. 
+ERROR DETAILS: [Macromedia][SQLServer JDBC Driver][SQLServer]Implicit conversion from data type varchar to varbinary is not allowed. Use the CONVERT function to run this query. 
+ERROR TEMPLATE: C:\ColdFusion10\cfusion\CustomTags\com\adobe\coldfusion\base.cfc 
+ERROR LINE: 445 
+ERROR TYPE: Database 
+STACKTRACE: 	at cfbase2ecfc450754003$funcINVOKETAG.runFunction(C:\ColdFusion10\cfusion\CustomTags\com\adobe\coldfusion\base.cfc:445) 
+----------------------------------------------------------------------
+
+DATE/TIME: {ts '2017-05-17 12:38:38'} 
+ERROR MESSAGE: The value returned from the createCategory function is not of type boolean. 
+ERROR DETAILS: If the component name is specified as a return type, it is possible that either a definition file for the component cannot be found or is not accessible. 
+ERROR TEMPLATE: D:\coldfusion\KisanSeva\controller\adminController.cfc 
+ERROR LINE: 108 
+ERROR TYPE: boolean 
+STACKTRACE: 	at cfadminController2ecfc1734561433$funcADDCATEGORY.runFunction(D:\coldfusion\KisanSeva\controller\adminController.cfc:108) 
+----------------------------------------------------------------------
+
+DATE/TIME: {ts '2017-05-17 12:57:42'} 
+ERROR MESSAGE: Error Executing Database Query. 
+ERROR DETAILS: [Macromedia][SQLServer JDBC Driver][SQLServer]Implicit conversion from data type varchar to varbinary is not allowed. Use the CONVERT function to run this query. 
+ERROR TEMPLATE: C:\ColdFusion10\cfusion\CustomTags\com\adobe\coldfusion\base.cfc 
+ERROR LINE: 445 
+ERROR TYPE: Database 
+STACKTRACE: 	at cfbase2ecfc450754003$funcINVOKETAG.runFunction(C:\ColdFusion10\cfusion\CustomTags\com\adobe\coldfusion\base.cfc:445) 
+----------------------------------------------------------------------
+
+DATE/TIME: {ts '2017-05-17 12:57:42'} 
+ERROR MESSAGE: The value returned from the createCategory function is not of type boolean. 
+ERROR DETAILS: If the component name is specified as a return type, it is possible that either a definition file for the component cannot be found or is not accessible. 
+ERROR TEMPLATE: D:\coldfusion\KisanSeva\controller\adminController.cfc 
+ERROR LINE: 108 
+ERROR TYPE: boolean 
+STACKTRACE: 	at cfadminController2ecfc1734561433$funcADDCATEGORY.runFunction(D:\coldfusion\KisanSeva\controller\adminController.cfc:108) 
+----------------------------------------------------------------------
+
+DATE/TIME: {ts '2017-05-17 17:41:29'} 
+ERROR MESSAGE: Error Executing Database Query. 
+ERROR DETAILS: [Macromedia][SQLServer JDBC Driver][SQLServer]Incorrect syntax near '='. 
+ERROR TEMPLATE: C:\ColdFusion10\cfusion\CustomTags\com\adobe\coldfusion\base.cfc 
+ERROR LINE: 445 
+ERROR TYPE: Database 
+STACKTRACE: 	at cfbase2ecfc450754003$funcINVOKETAG.runFunction(C:\ColdFusion10\cfusion\CustomTags\com\adobe\coldfusion\base.cfc:445) 
+----------------------------------------------------------------------
+
+DATE/TIME: {ts '2017-05-17 17:41:29'} 
+ERROR MESSAGE: The value returned from the updateProfile function is not of type boolean. 
+ERROR DETAILS: If the component name is specified as a return type, it is possible that either a definition file for the component cannot be found or is not accessible. 
+ERROR TEMPLATE: D:\coldfusion\KisanSeva\controller\userController.cfc 
+ERROR LINE: 234 
+ERROR TYPE: boolean 
+STACKTRACE: 	at cfuserController2ecfc447268575$funcEDITUSERPROFILE.runFunction(D:\coldfusion\KisanSeva\controller\userController.cfc:234) 
+----------------------------------------------------------------------
+
+DATE/TIME: {ts '2017-05-30 16:55:50'} 
+ERROR MESSAGE: Variable USERNAME is undefined. 
+ERROR DETAILS:  
+ERROR TEMPLATE: D:\coldfusion\KisanSevacfc\controller\userController.cfc 
+ERROR LINE: 30 
+ERROR TYPE: Expression 
+STACKTRACE: 	at cfuserController2ecfc533963522$funcREGISTERUSER.runFunction(D:\coldfusion\KisanSevacfc\controller\userController.cfc:30) 
+----------------------------------------------------------------------
+
+DATE/TIME: {ts '2017-05-31 12:01:43'} 
+ERROR MESSAGE: Variable EMAIL is undefined. 
+ERROR DETAILS:  
+ERROR TEMPLATE: D:\coldfusion\KisanSevacfc\controller\userController.cfc 
+ERROR LINE: 74 
+ERROR TYPE: Expression 
+STACKTRACE: 	at cfuserController2ecfc533963522$funcLOGINUSER.runFunction(D:\coldfusion\KisanSevacfc\controller\userController.cfc:74) 
+----------------------------------------------------------------------
+
+DATE/TIME: {ts '2017-05-31 12:02:31'} 
+ERROR MESSAGE: Variable EMAIL is undefined. 
+ERROR DETAILS:  
+ERROR TEMPLATE: D:\coldfusion\KisanSevacfc\controller\userController.cfc 
+ERROR LINE: 74 
+ERROR TYPE: Expression 
+STACKTRACE: 	at cfuserController2ecfc533963522$funcLOGINUSER.runFunction(D:\coldfusion\KisanSevacfc\controller\userController.cfc:74) 
+----------------------------------------------------------------------
+
+DATE/TIME: {ts '2017-05-31 12:07:15'} 
+ERROR MESSAGE: Variable EMAIL is undefined. 
+ERROR DETAILS:  
+ERROR TEMPLATE: D:\coldfusion\KisanSevacfc\controller\userController.cfc 
+ERROR LINE: 74 
+ERROR TYPE: Expression 
+STACKTRACE: 	at cfuserController2ecfc533963522$funcLOGINUSER.runFunction(D:\coldfusion\KisanSevacfc\controller\userController.cfc:74) 
+----------------------------------------------------------------------
+
+DATE/TIME: {ts '2017-05-31 13:57:36'} 
+ERROR MESSAGE: Variable TYPE is undefined. 
+ERROR DETAILS:  
+ERROR TEMPLATE: D:\coldfusion\KisanSevacfc\controller\userController.cfc 
+ERROR LINE: 27 
+ERROR TYPE: Expression 
+STACKTRACE: 	at cfuserController2ecfc533963522$funcREGISTERUSER.runFunction(D:\coldfusion\KisanSevacfc\controller\userController.cfc:27) 
+----------------------------------------------------------------------
+
+DATE/TIME: {ts '2017-05-31 16:29:28'} 
+ERROR MESSAGE: The value returned from the checkUser function is not of type Query. 
+ERROR DETAILS: If the component name is specified as a return type, it is possible that either a definition file for the component cannot be found or is not accessible. 
+ERROR TEMPLATE: D:\coldfusion\KisanSevacfc\controller\userController.cfc 
+ERROR LINE: 81 
+ERROR TYPE: Query 
+STACKTRACE: 	at cfuserController2ecfc533963522$funcLOGINUSER.runFunction(D:\coldfusion\KisanSevacfc\controller\userController.cfc:81) 
+----------------------------------------------------------------------
+
+DATE/TIME: {ts '2017-05-31 16:31:05'} 
+ERROR MESSAGE: The value returned from the checkUser function is not of type query. 
+ERROR DETAILS: If the component name is specified as a return type, it is possible that either a definition file for the component cannot be found or is not accessible. 
+ERROR TEMPLATE: D:\coldfusion\KisanSevacfc\controller\userController.cfc 
+ERROR LINE: 81 
+ERROR TYPE: query 
+STACKTRACE: 	at cfuserController2ecfc533963522$funcLOGINUSER.runFunction(D:\coldfusion\KisanSevacfc\controller\userController.cfc:81) 
+----------------------------------------------------------------------
+

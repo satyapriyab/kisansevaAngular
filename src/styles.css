@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background: #d2d6de;
+    -webkit-transition: none;
+    -o-transition: none;
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    transition: none;
+    margin: 0;
+}

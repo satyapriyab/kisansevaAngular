@@ -1,0 +1,63 @@
+		<div class="login-box">
+			<div class="login-logo">
+				<b>Kisan</b>Seva
+			</div>
+			<div class="login-box-body">
+				<p class="login-box-msg">Register a new membership</p>
+				<div *ngIf="data!==undefined">
+					<div *ngIf="data[0].EMAILEXISTS!==undefined">
+						<span class="error">{{data[0].EMAILEXISTS}}</span>
+					</div>
+					<div *ngIf="data[0].SUCCESSFUL!==undefined">
+						<span class="error">{{data[0].SUCCESSFUL}}</span>
+					</div>
+				</div>
+				<form (submit)="register($event, userType.value, name.value, email.value, password.value, cpassword.value, address.value, number.value)">
+					<div class="form-group has-feedback">
+						<select #userType class="form-control" id="userType" name="UserType" (input)='checkUserType(userType.value)'>
+							<option value="" selected="true">--Select User Type--</option>
+							<option value="2">Farmer</option>
+							<option value="3">Dealer</option>
+						</select>
+						<span [innerHtml]="userTypeErrorMessage" class="error"></span>
+					</div>
+					<div class="form-group has-feedback">
+						<input #name type="text" class="form-control" placeholder="Full name" name="Name" (input)='checkName(name.value)'>
+						<span class="glyphicon glyphicon-user form-control-feedback"></span>
+						<span [innerHtml]="nameErrorMessage" class="error"></span>
+					</div>
+					<div class="form-group has-feedback">
+						<input #email type="email" class="form-control" placeholder="Email" name="Email" (input)='checkEmail(email.value)'>
+						<span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+						<span [innerHtml]="emailErrorMessage" class="error"></span>
+					</div>
+					<div class="form-group has-feedback" >
+						<input #password type="password" class="form-control" placeholder="Password" name="Password" (input)='checkPassword(password.value)' >
+						<span class="glyphicon glyphicon-lock form-control-feedback"></span>
+						<span [innerHtml]="passwordErrorMessage" class="error"></span>
+					</div>
+					<div class="form-group has-feedback">
+						<input #cpassword type="password" class="form-control" placeholder="Retype password" name="RetypePassword" (input)='checkCPassword(password.value, cpassword.value)'>
+						<span class="glyphicon glyphicon-log-in form-control-feedback"></span>
+						<span [innerHtml]="cpasswordErrorMessage" class="error"></span>
+					</div>
+					<div class="form-group has-feedback">
+						<input #address type="text" class="form-control" placeholder="Address" name="Address">
+						<span class="glyphicon glyphicon-home form-control-feedback"></span>
+					</div>
+					<div class="form-group has-feedback">
+						<input #number type="number" class="form-control" placeholder="Number" name="Number" (input)='checkNumber(number.value)'>
+						<span class="glyphicon glyphicon-phone-alt form-control-feedback"></span>
+						<span [innerHtml]="numberErrorMessage" class="error"></span>
+					</div>
+					<div class="row">
+						<div class="col-xs-8"></div>
+						<div class="col-xs-4">
+							<button type="submit" name="registerbtn" class="btn btn-primary btn-block btn-flat">Register</button>
+						</div>
+					</div>
+				</form>
+				<a routerLink="/login" class="text-center">I already have a membership</a>
+							</div>
+		</div>
+
